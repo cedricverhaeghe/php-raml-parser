@@ -1,11 +1,15 @@
 {
-  "name": "elama/php-raml-parser",
+  "name": "cedricverhaeghe/php-raml-parser",
   "type": "library",
   "description": "A RAML parser built in php",
-  "homepage": "https://github.com/alecsammon/php-raml-parser",
+  "homepage": "https://github.com/cedricverhaeghe/php-raml-parser",
   "license": "MIT",
 
   "authors": [
+    {
+      "name": "Cédric Verhaeghe",
+      "email": "cedric.verhaeghe@gmail.com"
+    },
     {
       "name": "eLama Team",
       "email": "dev@elama.ru"
