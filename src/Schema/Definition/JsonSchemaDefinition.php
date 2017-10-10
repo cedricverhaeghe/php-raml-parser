@@ -41,7 +41,7 @@ final class JsonSchemaDefinition implements SchemaDefinitionInterface
         $validator = new Validator();
         $jsonSchema = $this->json;
 
-        $validator->validate($value, $jsonSchema, Constraint::CHECK_MODE_TYPE_CAST);
+        $validator->check($value, $jsonSchema);
 
         if (!$validator->isValid()) {
             foreach ($validator->getErrors() as $error) {
